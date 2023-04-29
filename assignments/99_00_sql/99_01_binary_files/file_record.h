@@ -24,7 +24,7 @@ public:
 
   FileRecord(vector<string> v);
   
-  // Returns the record number
+  // Returns the record number of the record written into
   long write(fstream& outs);
   // Returns the number of bytes read = MAX, or zero if read passed the end of file
   long read(fstream& ins, long recno);
